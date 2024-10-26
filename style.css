@@ -24,6 +24,8 @@ h1 {
 
 .recipe-card {
     width: 400px;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
     background-color: bisque;
     border: 2px solid darkred;
