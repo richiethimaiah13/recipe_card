@@ -10,6 +10,8 @@ body {
 
 img {
     width: 200px;
+    border: 2px solid darkred;
+    margin: 5px;
 }
 
 ul {
@@ -17,18 +19,16 @@ ul {
 }
 
 h1 {
-    color: brown;
+    color: darkred;
 }
 
 .recipe-card {
     width: 400px;
+    height: auto;
     background-color: bisque;
-    text-align: center;
     border: 2px solid darkred;
-}
-
-.recipe-content {
-    text-align: left;
+    text-align: center;
+    padding: 5px;
 }
 
 .recipe-card h2, 
@@ -41,7 +41,22 @@ li h2 {
 }
 
 .recipe-card a {
-    background-color: aqua;
-    color: black;
+    background-color: #fc9400;
+    color: #fff;
     text-decoration: none;
+    border: 2px solid black;
+}
+
+.recipe-content h1 {
+    text-align: center;
+}
+
+.recipe-content .description {
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.recipe-info {
+    text-align: left;
 }
